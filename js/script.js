@@ -59,7 +59,12 @@ function iniciarJogo(){
     if(direction == "up") snakeY -= box;
     if(direction == "down") snakeY += box;
 
-    snake.pop(); //Decrementa o ultimo elemento do array.
+    if(snakeX != food.x || snakeY != food.y){ //
+        snake.pop(); //Decrementa o ultimo elemento do array.
+    }else{
+        food.x = Math.floor(Math.random() * 15 + 1) * box; //No momento que a cobra come a fruta, aparece em outra localização.
+        food.y = Math.floor(Math.random() * 15 + 1) * box;
+    }
 
     let newHead = {
         x: snakeX,
