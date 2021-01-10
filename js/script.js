@@ -7,7 +7,11 @@ snake[0] = {
     y: 8 * box
 }
 let direction = "right"; // direção 
- 
+let food = {
+    x: Math.floor(Math.random() * 15 + 1) * box,
+    y: Math.floor(Math.random() * 15 + 1) * box //retorna um numero aleatório até 1 e retirar o flutuante.
+}
+
 function criarBG(){ //criando background do canvas
     context.fillStyle = "lightgreen"; // o context foi definido em 2d e terá a cor verde.
     context.fillRect(0, 0, 16 * box, 16 * box);
@@ -19,6 +23,11 @@ function criarCobrinha(){
         context.fillStyle = "green"; //cor da cobra 
         context.fillRect(snake[i].x, snake[i].y, box, box); // tamanho da cobra
     }
+}
+
+function drawFood(){
+    context.fillStyle = "red";
+    context.fillRect(food.x, food.y, box,box);
 }
 
 document.addEventListener('keydown', update); //Chama update
@@ -40,6 +49,7 @@ function iniciarJogo(){
 
     criarBG();
     criarCobrinha();
+    drawFood();
 
     let snakeX = snake[0].x; //coordenad de x e y no centro.
     let snakeY = snake[0].y;
