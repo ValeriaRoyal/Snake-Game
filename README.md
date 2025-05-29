@@ -16,21 +16,19 @@ Implementação do jogo clássico Snake utilizando JavaScript, HTML5 e CSS3, com
 - Loop de atualização com `setInterval` para movimentação contínua
 
 ## 📁 Estrutura de Arquivos
-bash
-Copiar
-Editar
+```
 Snake-Game/
 ├── index.html       # Estrutura principal da aplicação
 ├── style.css        # Estilos da interface
 └── script.js        # Lógica e execução do jogo
-🧪 Objetivos Técnicos
-Praticar lógica de programação voltada a jogos
+```
 
-Aplicar conceitos de renderização via canvas
+## 🧪 Objetivos Técnicos
 
-Exercitar o controle de fluxo e estados dinâmicos
-
-Desenvolver interações responsivas com o usuário
+- Praticar lógica de programação voltada a jogos
+- Aplicar conceitos de renderização via canvas
+- Exercitar o controle de fluxo e estados dinâmicos
+- Desenvolver interações responsivas com o usuário
 
 ## 🚀 Como Executar Localmente
 
@@ -38,9 +36,8 @@ Desenvolver interações responsivas com o usuário
    ```bash
    git clone https://github.com/ValeriaRoyal/Snake-Game.git
 
-bash
-Copiar
-Editar
-git clone https://github.com/ValeriaRoyal/Snake-Game.git
-cd Snake-Game
+   ```bash
+   git clone https://github.com/ValeriaRoyal/Snake-Game.git
+   cd Snake-Game
+   
 Abra index.html diretamente no navegador ou utilize uma extensão como Live Server (VS Code).
