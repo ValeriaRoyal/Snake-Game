@@ -1,4 +1,5 @@
-#🐍 Snake Game
+# 🐍 Snake Game
+
 Implementação do jogo clássico Snake utilizando JavaScript, HTML5 e CSS3, com foco em lógica de movimentação em grid, controle de estado e manipulação de elementos gráficos via DOM e canvas.
 
 ## ⚙️ Tecnologias e Arquitetura
