@@ -1,25 +1,21 @@
-🐍 Snake Game
+#🐍 Snake Game
 Implementação do jogo clássico Snake utilizando JavaScript, HTML5 e CSS3, com foco em lógica de movimentação em grid, controle de estado e manipulação de elementos gráficos via DOM e canvas.
 
-⚙️ Tecnologias e Arquitetura
-JavaScript Vanilla: controle da lógica do jogo, eventos de teclado, detecção de colisões e atualização do estado da cobra e do alimento.
+## ⚙️ Tecnologias e Arquitetura
+- **JavaScript (Vanilla):** controle de lógica, movimentação da cobrinha, detecção de colisões, pontuação e reinício do jogo.
+- **HTML5 Canvas:** renderização do campo de jogo e dos elementos gráficos.
+- **CSS3:** estilização da interface com foco em responsividade.
 
-HTML5 Canvas: renderização da interface gráfica do jogo em tempo real.
+## 🧠 Funcionalidades e Lógica
 
-CSS3: estilização básica e responsividade para execução em diferentes navegadores.
+- Controle da cobrinha com teclado (setas direcionais)
+- Crescimento ao consumir alimento
+- Geração aleatória da posição do alimento
+- Detecção de colisões com paredes e com o próprio corpo
+- Reinício automático após colisão
+- Loop de atualização com `setInterval` para movimentação contínua
 
-🧠 Lógica e Estrutura
-Utilização de setInterval para loop do jogo com taxa de atualização constante
-
-Vetores para armazenamento das coordenadas da cobra e do alimento
-
-Algoritmo de verificação de colisão com bordas e corpo
-
-Detecção de direção válida (sem reversão)
-
-Geração randômica de posição para o alimento
-
-📂 Estrutura de Arquivos
+## 📁 Estrutura de Arquivos
 bash
 Copiar
 Editar
@@ -36,8 +32,11 @@ Exercitar o controle de fluxo e estados dinâmicos
 
 Desenvolver interações responsivas com o usuário
 
-🚀 Execução
-Clone o repositório e abra o arquivo index.html em um navegador moderno:
+## 🚀 Como Executar Localmente
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/ValeriaRoyal/Snake-Game.git
 
 bash
 Copiar
