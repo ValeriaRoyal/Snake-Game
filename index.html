@@ -6,25 +6,37 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <!-- Descrição -->
-    <meta name="description" content="Jogo da cobrinha, um clássico dos celulares 'tijolão' recriado utilizando HTML5 e CSS3">
-    <meta name="keywords" content="HTML5, CSS3, snake, game">
-    <meta name="author" content="Valéria Regina A do N">
+    <meta name="description" content="Jogo da cobrinha (Snake Game), um clássico dos celulares antigos recriado com HTML5 Canvas, CSS3 e JavaScript puro.">
+    <meta name="keywords" content="HTML5, CSS3, JavaScript, Snake, Game, Jogo da Cobrinha">
+    <meta name="author" content="Valéria Regina">
+
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🐍</text></svg>">
 
     <!-- CSS -->
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/responsive.css">
 
-    <!--JS-->
-    <script defer src="js/script.js"></script> <!--defer realiza o carregamento do js no final-->
+    <!-- Open Graph / Social Media -->
+    <meta property="og:title" content="Snake Game">
+    <meta property="og:description" content="Jogo da cobrinha clássico recriado com HTML5 e JavaScript">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://valeriaroyal.github.io/Snake-Game/">
 
-    <!-- fontawesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
-    <title>Snake Game</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- JavaScript -->
+    <script defer src="js/script.js"></script>
+
+    <title>Snake Game | Jogo da Cobrinha</title>
 </head>
 <body>
     <h1>SNAKE GAME</h1>
     <canvas id="snake" width="512" height="512"></canvas>
-
+    <div class="instructions">
+        <p><i class="fas fa-arrow-up"></i> <i class="fas fa-arrow-down"></i> <i class="fas fa-arrow-left"></i> <i class="fas fa-arrow-right"></i> Use as setas para controlar a cobra</p>
+    </div>
 </body>
 </html>
